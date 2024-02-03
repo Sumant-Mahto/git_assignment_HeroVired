@@ -1,5 +1,9 @@
 # git_assignment_HeroVired
-This repo is for Herovired assignment 
+This repo is for Herovired assignment
+
+Collabrator: 
+https://github.com/igSpanser
+https://github.com/prem4eru
 
 Q1.
 1. git checkout -b dev
