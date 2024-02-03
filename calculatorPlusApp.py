@@ -47,7 +47,11 @@ print(f"{num1} / {num2} = {calculator.divide(num1, num2)}")
 # TODO: Uncomment and test the square root feature.
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 #num3 = 25
+=======
+num3 = 30
+>>>>>>> Stashed changes
 =======
 num3 = 30
 >>>>>>> Stashed changes
