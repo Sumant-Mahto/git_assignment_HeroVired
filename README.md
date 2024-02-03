@@ -23,9 +23,9 @@ In the repository ‘git_assignment_HeroVired’, create a branch ‘lfs’. Upl
 
 Steps
 
-git branch lfs
-$ git checkout lfs
-git lfs track Testlfs.bin
-$ git add Testlfs.bin
-$ git commit -m "adding large file"
-$ git push -u origin lfs
+1. $ git branch lfs
+2. $ git checkout lfs
+3. $ git lfs track Testlfs.bin
+4. $ git add Testlfs.bin
+5. $ git commit -m "adding large file"
+6. $ git push -u origin lfs
