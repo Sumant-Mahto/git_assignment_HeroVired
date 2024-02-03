@@ -79,3 +79,39 @@ i. Create Pull Requests:
 j. Review and Merge
 
 - Have another team member or reviewer review your pull requests. - After receiving approval, merge both pull requests into the main branch.
+
+Steps:
+$ git branch
+$ git branch feature/circle-area
+$ git checkout feature/circle-area
+$ git stash
+$ git branch feature/rectangle-area
+$ git checkout feature/rectangle-area
+$ git stash list
+$ git stash
+$ git checkout feature/circle-area
+$ git stash list
+$ git stash pop 1
+$ git add .
+$ git commit -m "Stash changes retrieved and ready to push in feature/circle-area branch."
+$ git push
+$ git checkout feature/rectangle-area
+$ git stash list
+$ git stash pop 0
+$ git add .
+$ git commit -m "Stash changes retrieved and ready to push in feature/rectangle-area branch."
+$ git checkout dev
+$ git pull
+$ git merge feature/circle-area
+$ git push
+$ git checkout feature/rectangle-area
+$ git merge dev
+$ git push
+$ git checkout dev
+$ git merge feature/rectangle-area
+$ Resolved Conflict and pushed in dev branch.
+$ git status
+$ git checkout main
+$ git pull
+$ git merge dev
+$ git push
